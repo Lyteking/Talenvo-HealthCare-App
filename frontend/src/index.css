@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+body{
+    min-width: 320px;
+}
+@theme {
+    --text-big: 2.5rem;
+    --text-bigger: 40.5rem;
+    --text-para: 0.65rem;
+    --color-noti: #F5F5F5;
+}
+.input{
+    @apply border border-black rounded w-full p-2 my-3 h-14
+}
+.nav-btn{
+    @apply text-center flex flex-col justify-center items-center md:mt-12
+}
